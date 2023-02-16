@@ -13,4 +13,4 @@ do
 done
 
 # Push all updated tags to the remote repository
-# git push --tags
+git push --tags
