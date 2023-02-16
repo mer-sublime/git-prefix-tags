@@ -4,7 +4,7 @@ Simple script to prefix all tags in a repository with `v`.
 Git recommends to prefix the tag of each release using [semantic versioning](https://semver.org/) with the letter `v`.
 When tagging releases in a version control system, the tag for a version must be `vX.Y.Z` e.g. `v3.1.0`.
 
-This script gets the list of tags from the Git repository, loops through each tag that doesn't start with `v`, and adds the 'v' prefix to it.
+This script gets the list of tags from the Git repository, loops through each tag that doesn't start with `v`, and adds the `v` prefix to it.
 The script then creates a new tag with the prefix and deletes the old tag without it.
 
 `1.0` becomes `v1.0` and so on.
